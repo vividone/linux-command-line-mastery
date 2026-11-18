@@ -1,0 +1,17 @@
+=== UPTIME & MEMORY ===
+ 20:36:20 up  2:10,  1 user,  load average: 1.37, 1.07, 0.96
+              total        used        free      shared  buff/cache   available
+Mem:           7855        4571         758         456        2525        2560
+Swap:          2047           4        2043
+
+=== DISK USAGE ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda5       116G   17G   94G  15% /
+
+=== TOP 5 MEMORY PROCESSES ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+volaitan    2154 14.3  6.2 4290480 505348 ?      Sl   18:30  18:08 /usr/lib/firefox/firefox -new-window
+volaitan    3117  7.9  5.9 3258668 480796 ?      Sl   18:31   9:52 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38017 -prefMapHandle 1 -prefMapSize 264282 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250227124745 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {47fcc255-561e-4a11-97f6-796d61a08852} -parentPid 2154 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 22 tab
+volaitan    7329  0.9  5.1 2943876 416144 ?      Sl   19:00   0:52 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38057 -prefMapHandle 1 -prefMapSize 264282 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250227124745 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9f6df57d-03e6-416e-bb91-82de2e154ca4} -parentPid 2154 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 35 tab
+volaitan   10853  0.8  4.2 2940060 338708 ?      Sl   19:21   0:36 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38206 -prefMapHandle 1 -prefMapSize 264282 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250227124745 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7de8f463-3631-4012-a1e7-3535dad29cad} -parentPid 2154 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 44 tab
+volaitan    2412  0.7  4.0 3070644 322464 ?      Sl   18:30   0:57 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 38017 -prefMapHandle 1 -prefMapSize 264282 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250227124745 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3f0e6e57-5e3b-492f-af68-45fa38951710} -parentPid 2154 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 8 tab

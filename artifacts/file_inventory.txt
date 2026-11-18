@@ -1,0 +1,3 @@
+artifacts/playground/configs/settings.conf
+artifacts/playground/logs/app.log
+artifacts/playground/backups/settings.conf.bak

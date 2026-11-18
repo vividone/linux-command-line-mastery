@@ -1,0 +1,14 @@
+[2026-11-18 20:37:43] Starting environment provisioning...
+[2026-11-18 20:37:43] Created base directory: ./artifacts/automated_env
+[2026-11-18 20:37:43] Provisioned ./artifacts/automated_env/bin (mode 750)
+[2026-11-18 20:37:43] Provisioned ./artifacts/automated_env/config (mode 750)
+[2026-11-18 20:37:43] Provisioned ./artifacts/automated_env/logs (mode 750)
+[2026-11-18 20:37:43] Provisioned ./artifacts/automated_env/tmp (mode 750)
+[2026-11-18 20:37:43] Provisioning complete.
+[2026-11-18 20:45:32] Starting environment provisioning...
+[2026-11-18 20:45:32] Base directory already exists: ./artifacts/automated_env
+[2026-11-18 20:45:32] Provisioned ./artifacts/automated_env/bin (mode 750)
+[2026-11-18 20:45:32] Provisioned ./artifacts/automated_env/config (mode 750)
+[2026-11-18 20:45:32] Provisioned ./artifacts/automated_env/logs (mode 750)
+[2026-11-18 20:45:32] Provisioned ./artifacts/automated_env/tmp (mode 750)
+[2026-11-18 20:45:32] Provisioning complete.

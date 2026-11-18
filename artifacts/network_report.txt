@@ -1,0 +1,36 @@
+=== IP INTERFACES ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp2s0           DOWN           
+wlp3s0           UP             192.168.1.55/24 fdc9:66e0:cf49:8:1154:c7df:139a:6cb3/64 fdc9:66e0:cf49:8:9eb6:4350:650a:1c19/64 2605:59c0:e25:2908:31dd:2890:61c0:3536/64 2605:59c0:e25:2908:29ee:de78:4edc:3038/64 fe80::e8f2:ac5f:df5c:4240/64 
+br-f3df4dda21b7  UP             192.168.49.1/24 fe80::1c5c:9eff:feec:142b/64 
+docker0          DOWN           172.17.0.1/16 
+veth47f27d1@if2  UP             fe80::4fc:23ff:fe83:1903/64 
+
+=== LISTENING SOCKETS ===
+Netid   State    Recv-Q   Send-Q                          Local Address:Port                       Peer Address:Port                  Process                   
+udp     UNCONN   0        0                                     0.0.0.0:5353                            0.0.0.0:*                                               
+udp     UNCONN   0        0                                     0.0.0.0:59647                           0.0.0.0:*                                               
+udp     UNCONN   0        0                                     0.0.0.0:49159                           0.0.0.0:*                                               
+udp     UNCONN   0        0                               127.0.0.53%lo:53                              0.0.0.0:*                                               
+udp     UNCONN   0        0                                        [::]:5353                               [::]:*                                               
+udp     UNCONN   0        0                                        [::]:47512                              [::]:*                                               
+udp     UNCONN   0        0          [fe80::e8f2:ac5f:df5c:4240]%wlp3s0:546                                [::]:*                                               
+tcp     LISTEN   0        4096                            127.0.0.53%lo:53                              0.0.0.0:*                                               
+tcp     LISTEN   0        511                                 127.0.0.1:45985                           0.0.0.0:*                                               
+tcp     LISTEN   0        5                                   127.0.0.1:631                             0.0.0.0:*                                               
+tcp     LISTEN   0        4096                                127.0.0.1:32772                           0.0.0.0:*                                               
+tcp     LISTEN   0        4096                                127.0.0.1:32771                           0.0.0.0:*                                               
+tcp     LISTEN   0        4096                                127.0.0.1:32770                           0.0.0.0:*                                               
+tcp     LISTEN   0        4096                                127.0.0.1:32769                           0.0.0.0:*                                               
+tcp     LISTEN   0        4096                                127.0.0.1:32768                           0.0.0.0:*                                               
+tcp     LISTEN   0        5                                       [::1]:631                                [::]:*                                               
+
+=== CONNECTIVITY TEST ===
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=21.6 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=32.5 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=26.4 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 21.622/26.830/32.493/4.449 ms
